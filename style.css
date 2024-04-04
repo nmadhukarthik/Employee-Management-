@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+
+#container
+{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+#inputs
+{
+    margin-top: 30px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input
+{
+    width: 300px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+}
+
+
+.inputBlocks
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#addUser
+{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hide
+{
+    display: none;
+}
+
+#error
+{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#success
+{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#para1
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.element
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+#employeesList
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#para2
+{
+    color: #808080;
+}
+
+.employee
+{
+    color: white;
+    border: 1px solid white;
+    width:500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.delete
+{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    padding: 8px;
+    width: 100px;
+}

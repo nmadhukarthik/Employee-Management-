@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h3> New Employees</h3>
+
+        <div id="inputs">
+            <div class="inputBlocks">
+                <label for="name"> Enter Name </label> <br>
+                <input type="text" name="name" id="name" required>
+            </div>
+           
+            <div class="inputBlocks">
+                <label for="Profession"> Enter Profession </label> <br> 
+                <input type="text" name="Profession" id="Profession" required>
+            </div>
+    
+            <div class="inputBlocks">
+                <label for="Age"> Enter Age </label> <br> 
+                <input type="number" name="Age" id="Age" required>
+            </div>
+        </div>
+
+        <button id="addUser"> Add User </button>
+
+        <div id="error" class="hide">
+            Error : Please Make sure All the fields are filled before adding in an employee !
+        </div>
+
+        <div id="success" class="hide">
+            Success : Employee Added!
+        </div>
+
+        <h4 id="para1"> Added Employees </h4>
+
+        <div id="employeesList"> </div>
+
+        <p id="para2">You have 0 employees.</p>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
